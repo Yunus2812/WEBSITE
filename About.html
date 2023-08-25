@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>CASTLETON UNIVERSITY</title>
+    <link rel="stylesheet" href="Castleton university.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;1,200;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="sub-header-about">
+
+        <nav>
+
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="Castleton university.html">HOME</a></li>
+                    <li><a href="Course.html">COURSES</a></li>
+                    <li><a href="Blog.html">BLOG</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+
+        </nav>
+
+        <h1>ABOUT UNIVERSITY</h1>
+
+    </section>
+
+    <!-- about us content -->
+    <section class="about-us">
+
+        <div class="row">
+
+            <div class="about-col">
+                <h1> The Castleton University is one of the leading university in the world</h1>
+                <p>
+                    The Castleton University has more than 20,000 students, from 140 countries.<br>
+                    <br>
+                    Castleton is a world-leading centre of learning, teaching and research and <br>
+                    the oldest university in the English-speaking world. <br>
+                    <br>
+                    Each college is independent and self-governing, having a charter approved <br>
+                     by the Privy Council, under which it is governed by a Head of House, elected <br> 
+                     and appointed by the governing body directly. The governing body comprises <br>
+                      a number of Fellows, most of whom also hold University posts.
+
+                </p>
+
+            </div>
+            <div class="about-col">
+                <img src="abooo1.jpg">
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    
+    <!-- footer -->
+    <section class="footer">
+        <h4>About</h4>
+        <p>All the rights of this website are reserved by the Castleton University
+        <br> UNIVERSITY OF CASTLETON 2023
+        </p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-youtube"></i>
+            <p>Copy-right  @ Castleton University.</p>
+
+
+        </div>
+
+    </section>
+
+
+
+    <!----java script for toggle menu.---->
+    <script>
+        var navlinks = document.getElementById("navlinks")
+        function showmenu()
+        {
+            navlinks.style.right="0";
+        }
+        function hidemenu()
+        {
+            navlinks.style.right="-200px";
+        }
+    </script>
+
+
+</body>
+</html>
